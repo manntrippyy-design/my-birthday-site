@@ -80,3 +80,24 @@ p {
   touch-action: none;
 }
 
+.paper.heart {
+  width: 140px;
+  height: 140px;
+  padding: 0;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper.heart img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+
+
