@@ -75,3 +75,8 @@ p {
   user-select: none;
   text-align: center;
 }
+
+.paper {
+  touch-action: none;
+}
+
